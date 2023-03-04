@@ -18,13 +18,12 @@ bot = Client(name=str(config.USERNAME),
              api_id=config.API_ID, 
              api_hash=config.API_HASH,
              bot_token=config.BOT_TOKEN,
-             plugins=plugins)
+             plugins=plugins).start()
 
 inv = Client(name="Invaded", 
              api_id=config.APP_ID, 
              api_hash=config.APP_HASH,
-             session_string=config.SESSION)
-inv.start()
+             session_string=config.SESSION).start()
 pymongo = MongoClient(config.DB_URL)
 pymongodb = pymongo.bot
 
