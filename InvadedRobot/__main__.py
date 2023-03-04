@@ -72,7 +72,3 @@ async def help(_, query):
          msg = await query.message.edit("`Opening Help Menu...`")
          await asyncio.sleep(2)
          await msg.edit(HELP)
-
-
-if __name__ == "__main__":
-     bot.start()
