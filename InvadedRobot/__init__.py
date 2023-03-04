@@ -24,7 +24,7 @@ inv = Client(name="Invaded",
              api_id=config.APP_ID, 
              api_hash=config.APP_HASH,
              session_string=config.SESSION)
-
+inv.start()
 pymongo = MongoClient(config.DB_URL)
 pymongodb = pymongo.bot
 
