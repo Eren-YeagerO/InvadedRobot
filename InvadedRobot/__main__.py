@@ -4,7 +4,7 @@ from strings import *
 import asyncio
 
 
-from InvadedRobot import *
+from InvadedRobot import bot
 from InvadedRobot.helpers.status import *
 from InvadedRobot.helpers.scandb import *
 from pyrogram import *
