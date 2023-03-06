@@ -1,4 +1,4 @@
-from InvadedRobot import *
+from InvadedRobot import pymongodb
 from telegraph import *
 
 scansdb = pymongodb.SCANNER
