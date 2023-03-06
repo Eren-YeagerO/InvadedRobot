@@ -1,4 +1,4 @@
-from InvadedRobot.helpers import *
+from InvadedRobot import *
 
 ranksdb = mongodb.rankuserdb
 
