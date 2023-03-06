@@ -26,6 +26,3 @@ inv = Client(name="Invaded",
              session_string=config.SESSION).start()
 pymongo = MongoClient(config.DB_URL)
 pymongodb = pymongo.bot
-
-mongo = AsyncIOMotorClient(config.DB_URL)
-mongodb = mongo.bot 
