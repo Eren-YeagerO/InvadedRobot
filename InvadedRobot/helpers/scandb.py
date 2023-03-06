@@ -1,7 +1,7 @@
-from InvadedRobot import pymongodb
+from InvadedRobot.helpers import mongodb
 from telegraph import *
 
-scansdb = pymongodb.SCANNER
+scansdb = mongodb.SCANNER
 
 async def add_scan_user(user_id: int, reason: str, date: int):
                  scan_reason_list = {"_id": user_id, "user_id":user_id, "reason":reason, "date":date,"proof":"None"}
