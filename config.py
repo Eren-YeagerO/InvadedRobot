@@ -16,6 +16,6 @@ GROUP_URL = "t.me/InvadedSupport"
 UPDATE_CHANNEL_URL = "t.me/invadedupdates"
 SYSTEM_CHANNEL_URL = "t.me/Invaded_System"
 LOG_CHANNEL_URL = "t.me/Logsvai"
-DB_URL = "mongodb+srv://Bave999:Bave999@cluster0.1aheaa1.mongodb.net/?retryWrites=true&w=majority"
+DB_URL = "mongodb+srv://eren:eren@cluster0.yxuwg4r.mongodb.net/?retryWrites=true&w=majority"
 DEVS = [5852645041]
 INV_CORE_1 = -1001882023751
